@@ -17,3 +17,5 @@ https://www.amazon.com/gp/product/B00007E7D2
 50 sheets for $11.28
 
 THE SAME STUFF.
+
+The vinyl sticker sheets: Check Cricut.com for deals, sometimes they will have discounts.
