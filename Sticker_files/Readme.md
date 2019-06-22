@@ -43,3 +43,6 @@ warning_monitor.pptx - Warning You have entered into monitor area, please note y
 NOTTOBE2.pptx - WARNING Not to be operated by fuckwits
 
 warning2017v2.pptx - Warning may contain Dormain Cyber Pathogens 2017 version
+
+noticev2hands3.pptx - Wash hands after washing hands endless loop version
+
